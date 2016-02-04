@@ -29,7 +29,7 @@ Rectangle {
             color: "transparent"
         }
         IconButton {
-            iconSource: "qrc:///images/window-minimize.svg"
+            iconSource: "qrc:///icons/window-minimize.svg"
             width: Units.dp(20)
             height: width
             color: _back.iconsColor
@@ -37,7 +37,7 @@ Rectangle {
         }
 
         IconButton {
-            iconSource: root.visibility == 4 ? "qrc:///images/window-restore.svg" : "qrc:///images/window-maximize.svg"
+            iconSource: root.visibility == 4 ? "qrc:///icons/window-restore.svg" : "qrc:///icons/window-maximize.svg"
             width: Units.dp(20)
             id: sysbtn_max
             height: width
@@ -51,7 +51,7 @@ Rectangle {
         }
 
         IconButton {
-            iconSource: "qrc:///images/window-close.svg"
+            iconSource: "qrc:///icons/window-close.svg"
             width: Units.dp(20)
             height: width
             color: _back.iconsColor

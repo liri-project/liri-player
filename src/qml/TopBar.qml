@@ -46,7 +46,8 @@ Rectangle {
         IconButton {
             id: libraryButton
             visible: true
-            iconName: "av/my_library_music"
+            //iconName: "av/my_library_music"
+            iconSource: "qrc:///icons/my_library_music.svg" //Temporary untill qml-material fixes this
             color: "white"
             size: Units.dp(30)
             onClicked: pageStack.push(libraryPage)
